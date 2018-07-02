@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "declaration": false,
+      "noImplicitAny": false,
+      "removeComments": true,
+      "noLib": false,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "target": "esnext",
+      "sourceMap": true,
+      "allowJs": true,
+      "outDir": "./dist",
+      "lib": [
+        "es2017",
+        "dom"
+      ],
+      "baseUrl": "./src",
+      "paths": {
+          "~/*": ["*"],
+          "~~/*": ["*"]
+      }
+    },
+    "include": [
+      "src/**/*"
+    ],
+    "exclude": [
+      "node_modules",
+      "**/*.spec.ts"
+    ]
+  }

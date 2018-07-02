@@ -1,0 +1,22 @@
+{
+  "name": "init-nest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/main.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nestjs/common": "5.0.1",
+    "@nestjs/core": "5.0.1",
+    "reflect-metadata": "0.1.12",
+    "rxjs": "6.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "1.17.5",
+    "typescript": "2.9.2"
+  }
+}
